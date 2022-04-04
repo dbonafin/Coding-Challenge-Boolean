@@ -1,0 +1,79 @@
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+#totalbox {
+  width: 780px;
+  height: 530px;
+  background: rgba(30, 30, 30, 0.70);
+  padding: 20px;
+  margin: auto;
+  border-radius: 15px;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 12px;
+}
+
+.navigationbox {
+  width: 760px;
+  height: 20px;
+  background: #39e600;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+}
+
+header > img {
+  width: 160px;
+}
+
+header > h1 {
+  font-size: 20px;
+  color: #39e600;
+}
+
+main {
+  color: white;
+}
+
+h2:before {
+  content: ' \25FC';
+}
+
+p:before {
+  content: ' \21A6';
+}
+
+h2 {
+  padding-top: 15px;
+}
+
+.battery {
+border-radius: 5px;
+padding: 5px;
+}
+
+.gino {
+background-color: orange;
+padding-right: 90px;
+}
+
+.mike {
+background-color: green;
+padding-right: 170px;
+}
+
+.fede {
+background-color: red;
+padding-right: 20px;
+}
+
+footer {
+  text-align: center;
+  font-style: italic;
+  opacity: 0.7;
+}
